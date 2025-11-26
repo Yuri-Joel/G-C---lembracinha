@@ -8,14 +8,16 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🎈</span>
-              <div>
-                <h3 className="font-bold text-lg">Sua Festa</h3>
-                <p className="text-pink-400 text-sm">Nossa Paixão</p>
-              </div>
+             <div className="flex items-center gap-2">
+            <div className="w-20 rounded-lg flex items-center justify-center">
+             <img src='../../public/logotipo.png' className='w-[60px] rounded'/>
             </div>
-            <p className="text-gray-400 text-sm">
+            <div className="hidden sm:flex flex-col">
+              <h1 className="text-white font-bold text-md leading-tight">G&C</h1>
+              <p className="text-pink-600 text-md font-semibold">Lembracinhas</p>
+            </div>
+          </div>
+            <p className="text-gray-400 p-2 text-sm">
               Transformando momentos em memórias inesquecíveis desde 2018.
             </p>
           </div>

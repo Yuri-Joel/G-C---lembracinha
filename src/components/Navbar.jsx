@@ -9,8 +9,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <div className="w-20 h-20 bg-gradient-to-br from-black to-pink-600 rounded-lg flex items-center justify-center">
-             <img src='../../public/logotipo.png'/>
+            <div className="w-20 rounded-lg flex items-center justify-center">
+             <img src='../../public/logotipo.png' className='w-[60px]'/>
             </div>
             <div className="hidden sm:flex flex-col">
               <h1 className="text-black font-bold text-md leading-tight">G&C</h1>
@@ -42,7 +42,7 @@ export default function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden pb-4 border-t border-gray-100">
+          <div className="md:hidden pb-4 bg-white border-t border-gray-100">
             <a href="#services" className="block py-2 text-black hover:text-pink-600">Serviços</a>
             <a href="#portfolio" className="block py-2 text-black hover:text-pink-600">Portfólio</a>
             <a href="#gallery" className="block py-2 text-black hover:text-pink-600">Galeria</a>

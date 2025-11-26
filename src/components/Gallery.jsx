@@ -25,12 +25,12 @@ export default function Gallery() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
           {galleryImages.map((image, index) => (
             <div
               key={index}
               onClick={() => setSelectedImage(image)}
-              className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer"
+              className="group relative aspect-square overflow-hidden cursor-pointer"
             >
               <img
                 src={image || "/placeholder.svg"}
