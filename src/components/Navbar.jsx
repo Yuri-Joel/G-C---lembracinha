@@ -5,16 +5,16 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+    <nav className="fixed h-20 w-full top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-black to-pink-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">🎈</span>
+            <div className="w-20 h-20 bg-gradient-to-br from-black to-pink-600 rounded-lg flex items-center justify-center">
+             <img src='../../public/logotipo.png'/>
             </div>
             <div className="hidden sm:flex flex-col">
-              <h1 className="text-black font-bold text-sm leading-tight">Sua Festa</h1>
-              <p className="text-pink-600 text-xs font-semibold">Nossa Paixão</p>
+              <h1 className="text-black font-bold text-md leading-tight">G&C</h1>
+              <p className="text-pink-600 text-md font-semibold">Lembracinhas</p>
             </div>
           </div>
 
