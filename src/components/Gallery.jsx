@@ -10,6 +10,18 @@ export default function Gallery() {
     '/arranjo-bal-es-metalizados.jpg',
     '/lembrancinhas-personalizadas-elegantes.jpg',
     '/mesa-decorada-bal-es-tem-tica.jpg',
+    '/detalhes-decorativos-lembrancinhas.jpg',
+      '/decora--o-entrada-evento.jpg',
+    '/bal-es-decora--o-festa-colorida.jpg',
+    '/arranjo-bal-es-metalizados.jpg',
+    '/lembrancinhas-personalizadas-elegantes.jpg',
+    '/mesa-decorada-bal-es-tem-tica.jpg',
+    '/detalhes-decorativos-lembrancinhas.jpg', 
+     '/decora--o-entrada-evento.jpg',
+    '/bal-es-decora--o-festa-colorida.jpg',
+    '/arranjo-bal-es-metalizados.jpg',
+    '/lembrancinhas-personalizadas-elegantes.jpg',
+    '/mesa-decorada-bal-es-tem-tica.jpg',
     '/detalhes-decorativos-lembrancinhas.jpg'
   ]
 

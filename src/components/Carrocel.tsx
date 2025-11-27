@@ -44,14 +44,14 @@ export const CarrocelComponent = ()=> {
     <main className="z-2 absolute w-screen bg-black h-screen overflow-hidden">
       <Carousel
         setApi={setApi}
-        className="relative w-full h-screen overflow-hidden"
+        className="relative w-screen h-screen overflow-hidden"
         opts={{
           loop: true,
           align: "start",
         }}
         plugins={[pluginRef.current]}
       >
-        <CarouselContent className="w-full h-screen ">
+        <CarouselContent className="w-screen h-screen ">
           {slides.map((slide,index) => {
             return (
               <CarouselItem key={index} 

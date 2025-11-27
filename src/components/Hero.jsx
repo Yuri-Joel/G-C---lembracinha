@@ -49,7 +49,7 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="flex justify-center gap-8 text-center mb-12 animate-pulse-subtle">
+        <div className="flex justify-center md:gap-8 text-center mb-12 animate-pulse-subtle gap-4">
           <div>
             <p className="text-3xl font-bold text-pink-400">500+</p>
             <p className=" text-sm">Festas Decoradas</p>
@@ -72,7 +72,7 @@ export default function Hero() {
       </div>
     
     <CarrocelComponent/>
-    <div className="absolute z-1 bg-black opacity-60 w-full h-full" />
+    <div className="absolute z-1 bg-black opacity-70 w-full h-full" />
     </section>
   )
 }

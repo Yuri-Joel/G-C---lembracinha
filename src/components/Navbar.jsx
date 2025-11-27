@@ -42,7 +42,7 @@ export default function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden pb-4 bg-white border-t border-gray-100">
+          <div className="md:hidden pb-4 bg-white border-t border-gray-100 p-4 w-full">
             <a href="#services" className="block py-2 text-black hover:text-pink-600">Serviços</a>
             <a href="#portfolio" className="block py-2 text-black hover:text-pink-600">Portfólio</a>
             <a href="#gallery" className="block py-2 text-black hover:text-pink-600">Galeria</a>

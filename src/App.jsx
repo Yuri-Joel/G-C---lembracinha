@@ -9,8 +9,11 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="relative min-h-screen bg-white">
       <Navbar />
+      <div className='w-full fixed z-10 h-full pt-[80vh] flex flex-col gap-2 items-end justify-end px-4 pb-10 md:p-20'>
+        <img alt='ww' src={"/whatsap.png"} className='w-[50px] shadow-xl rounded-full'/>
+      </div>
       <Hero />
       <Services />
       <Portfolio />

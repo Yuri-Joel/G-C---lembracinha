@@ -33,8 +33,8 @@ export default function Contact() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="space-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+         
             <div className="flex gap-4">
               <div className="w-12 h-12 bg-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Phone size={24} className="text-white" />
@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-bold text-black mb-1">Email</h3>
-                <p className="text-gray-600">contato@suafestanosapaixao.com</p>
+                <p className="text-gray-600">contato@cc</p>
               </div>
             </div>
 
@@ -76,51 +76,6 @@ export default function Contact() {
             </div>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <input
-              type="text"
-              name="name"
-              placeholder="Seu Nome"
-              value={formData.name}
-              onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-600 transition"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Seu Email"
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-600 transition"
-              required
-            />
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Seu Telefone"
-              value={formData.phone}
-              onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-600 transition"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Sua Mensagem"
-              rows="4"
-              value={formData.message}
-              onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-pink-600 transition resize-none"
-              required
-            />
-            <button
-              type="submit"
-              className="w-full px-6 py-3 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition transform hover:scale-105"
-            >
-              Enviar Mensagem
-            </button>
-          </form>
-        </div>
       </div>
     </section>
   )

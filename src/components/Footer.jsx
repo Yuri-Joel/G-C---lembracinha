@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Redes Sociais</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-pink-400 transition">Instagram</a></li>
+              <li><a href="https://www.instagram.com/gc_lembracinhas?igsh=emx2cGpuMmRwdWp2" className="hover:text-pink-400 transition">Instagram</a></li>
               <li><a href="#" className="hover:text-pink-400 transition">Facebook</a></li>
               <li><a href="#" className="hover:text-pink-400 transition">WhatsApp</a></li>
               <li><a href="#" className="hover:text-pink-400 transition">TikTok</a></li>
