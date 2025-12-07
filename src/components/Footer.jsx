@@ -3,6 +3,11 @@ import { Heart } from 'lucide-react'
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
+  // Número do WhatsApp 
+  const whatsappNumber = '+244975631212';
+  
+  // Link do WhatsApp 
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá!%20Gostaria%20de%20mais%20informações.`;
   return (
     <footer className="bg-black text-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
@@ -10,7 +15,7 @@ export default function Footer() {
           <div>
              <div className="flex items-center gap-2">
             <div className="w-20 rounded-lg flex items-center justify-center">
-             <img src='../../public/logotipo.png' className='w-[60px] rounded'/>
+             <img src='/logotipo.png' className='w-[60px] rounded'/>
             </div>
             <div className="hidden sm:flex flex-col">
               <h1 className="text-white font-bold text-md leading-tight">G&C</h1>
@@ -37,7 +42,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="https://www.instagram.com/gc_lembracinhas?igsh=emx2cGpuMmRwdWp2" className="hover:text-pink-400 transition">Instagram</a></li>
               <li><a href="#" className="hover:text-pink-400 transition">Facebook</a></li>
-              <li><a href="#" className="hover:text-pink-400 transition">WhatsApp</a></li>
+              <li><a href={whatsappLink} className="hover:text-pink-400 transition">WhatsApp</a></li>
               <li><a href="#" className="hover:text-pink-400 transition">TikTok</a></li>
             </ul>
           </div>

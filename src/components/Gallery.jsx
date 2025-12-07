@@ -11,13 +11,13 @@ export default function Gallery() {
     '/lembrancinhas-personalizadas-elegantes.jpg',
     '/mesa-decorada-bal-es-tem-tica.jpg',
     '/detalhes-decorativos-lembrancinhas.jpg',
-      '/decora--o-entrada-evento.jpg',
+    '/decora--o-entrada-evento.jpg',
     '/bal-es-decora--o-festa-colorida.jpg',
     '/arranjo-bal-es-metalizados.jpg',
     '/lembrancinhas-personalizadas-elegantes.jpg',
     '/mesa-decorada-bal-es-tem-tica.jpg',
     '/detalhes-decorativos-lembrancinhas.jpg', 
-     '/decora--o-entrada-evento.jpg',
+    '/decora--o-entrada-evento.jpg',
     '/bal-es-decora--o-festa-colorida.jpg',
     '/arranjo-bal-es-metalizados.jpg',
     '/lembrancinhas-personalizadas-elegantes.jpg',
@@ -37,7 +37,7 @@ export default function Gallery() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}
@@ -47,7 +47,7 @@ export default function Gallery() {
               <img
                 src={image || "/placeholder.svg"}
                 alt={`Galeria ${index + 1}`}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all flex items-center justify-center">
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity">
