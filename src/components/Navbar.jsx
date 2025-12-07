@@ -9,9 +9,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <div className="w-20 rounded-lg flex items-center justify-center">
-             <img src='../../public/logotipo.png' className='w-[60px]'/>
-            </div>
+            <a href={"/"} className='w-20 rounded-lg flex items-center justify-center'> 
+             <img src='/logotipo.png' className='w-[60px] rounded'/>
+            </a>
             <div className="hidden sm:flex flex-col">
               <h1 className="text-black font-bold text-md leading-tight">G&C</h1>
               <p className="text-pink-600 text-md font-semibold">Lembracinhas</p>
@@ -29,7 +29,7 @@ export default function Navbar() {
             <Phone className="w-5 h-5 text-pink-600" />
             <div className="flex flex-col">
               <span className="text-xs text-gray-500">Das 8:30-18:00</span>
-              <span className="text-black font-semibold text-sm">+244 923 456 789</span>
+              <span className="text-black font-semibold text-sm">+244 +244 975 631 212</span>
             </div>
           </div>
 

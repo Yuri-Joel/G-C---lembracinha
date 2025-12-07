@@ -83,3 +83,6 @@
     animation: slide-in-from-right 0.8s ease-out;
   }
 }
+html {
+  scroll-behavior: smooth;
+}

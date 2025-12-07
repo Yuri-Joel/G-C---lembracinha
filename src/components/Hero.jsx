@@ -13,6 +13,12 @@ const FloatingBalloon = ({ delay, duration }) => (
 )
 
 export default function Hero() {
+
+  // Número do WhatsApp 
+  const whatsappNumber = '+244975631212';
+  
+  // Link do WhatsApp 
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá!%20Gostaria%20de%20de%20solicitar%20um%20orçamento.`;
   return (
     <section className="relative  text-white min-h-screen pt-20 pb-10 flex items-center justify-center overflow-hidden bg-[url('/decora--o-casamento-elegante-luxuoso.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 overflow-hidden">
@@ -41,9 +47,11 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-in-right" style={{ animationDelay: '0.6s' }}>
+          <a href={whatsappLink}>
           <button className="px-8 py-3 bg-white text-black rounded-lg font-semibold hover:bg-white transition transform hover:scale-105">
             Solicitar Orçamento
-          </button>
+          </button>  
+          </a>
           <button className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition">
             Conhecer Serviços
           </button>
